@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "  HIANDIC/docker-instance/aws"
+    source = "HIANDIC/docker-instance/aws"
     key_name = "write-your-key-name"
 }
 ```
